@@ -22,7 +22,10 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-add_executable(helloworld src/helloworld.cpp)
+# 易错点：两个源文件都要列出来，漏掉 main.cpp 会报 undefined reference to main
+add_executable(helloworld src/helloworld.cpp main.cpp)
+# 易错点：头文件在 include/ 下，必须告诉编译器搜索路径，否则 include 找不到
+target_include_directories(helloworld PRIVATE include)
 ament_target_dependencies(helloworld rclcpp std_msgs)
 
 install(

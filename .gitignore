@@ -2,3 +2,6 @@ github_relate.txt
 HelloWorld_ws/build/
 HelloWorld_ws/install/
 HelloWorld_ws/log/
+build/
+install/
+log/
