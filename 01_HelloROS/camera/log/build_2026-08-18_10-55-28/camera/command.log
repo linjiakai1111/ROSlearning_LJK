@@ -1,0 +1,4 @@
+Invoking command in '/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera -- -j20 -l20
+Invoked command in '/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera -- -j20 -l20
+Invoking command in '/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera
+Invoked command in '/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera

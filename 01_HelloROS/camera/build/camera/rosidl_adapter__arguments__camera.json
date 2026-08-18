@@ -1,0 +1,6 @@
+{
+  "package_name": "camera",
+  "non_idl_tuples": [
+    "/home/line/ROSlearning_LJK/01_HelloROS/camera:msg/RobotPoseMsg.msg"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/sensor/include",
+        "${workspaceFolder}/install/sensor/include",
+        "${workspaceFolder}/install/sensor/include/sensor",
+        "${workspaceFolder}/build/sensor/rosidl_generator_cpp",
+        "${workspaceFolder}/build/sensor/rosidl_typesupport_cpp",
+        "${workspaceFolder}/build/sensor/rosidl_typesupport_fastrtps_cpp",
+        "/opt/ros/humble/include",
+        "/opt/ros/humble/include/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}

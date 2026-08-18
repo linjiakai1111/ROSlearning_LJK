@@ -1,0 +1,5 @@
+sensor_node:
+  ros__parameters:
+    x: 0.2
+    y: 0.3
+    z: 0.4

@@ -1,7 +1,10 @@
 github_relate.txt
-HelloWorld_ws/build/
-HelloWorld_ws/install/
-HelloWorld_ws/log/
-build/
-install/
-log/
+/00_HelloWorld/build/
+/00_HelloWorld/install/
+/00_HelloWorld/log/
+/01_HelloROS/build/
+/01_HelloROS/install/
+/01_HelloROS/log/
+/02_HelloYaml/build/
+/02_HelloYaml/install/
+/02_HelloYaml/log/

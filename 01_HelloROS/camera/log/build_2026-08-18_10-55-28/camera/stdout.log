@@ -1,0 +1,144 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera/rosidl_generator_c>;$<BUILD_INTERFACE:/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera/rosidl_typesupport_introspection_cpp>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/line/ROSlearning_LJK/01_HelloROS/camera/build/camera
+[35m[1mConsolidate compiler generated dependencies of target camera__rosidl_generator_c[0m
+[  3%] Built target camera__cpp
+[ 15%] Built target camera__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target camera__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target camera__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target camera__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target camera__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target camera__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target camera__rosidl_typesupport_introspection_c[0m
+[ 30%] Built target camera__rosidl_typesupport_c
+[ 38%] Built target camera__rosidl_typesupport_introspection_cpp
+[ 50%] Built target camera__rosidl_typesupport_cpp
+[ 61%] Built target camera__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target camera__rosidl_typesupport_fastrtps_c
+[ 84%] Built target camera__rosidl_typesupport_introspection_c
+[ 84%] Built target camera
+[35m[1mConsolidate compiler generated dependencies of target camera_node[0m
+[35m[1mConsolidate compiler generated dependencies of target machine_node[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera.cpp.o[0m
+[ 96%] Built target machine_node
+[100%] [32m[1mLinking CXX executable camera_node[0m
+[100%] Built target camera_node
+-- Install configuration: ""
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/ament_index/resource_index/rosidl_interfaces/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/robot_pose_msg.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__functions.c
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__functions.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__type_support.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__struct.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/environment/library_path.sh
+-- Installing: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/environment/library_path.dsv
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/libcamera__rosidl_generator_c.so
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/libcamera__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/robot_pose_msg.hpp
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__builder.hpp
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__struct.hpp
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__traits.hpp
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__type_support.hpp
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/dds_fastrtps
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/libcamera__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__type_support.c
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/libcamera__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/libcamera__rosidl_typesupport_c.so
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__type_support.cpp
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/include/camera/camera/msg/detail/robot_pose_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/libcamera__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/libcamera__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/msg/RobotPoseMsg.idl
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/msg/RobotPoseMsg.msg
+-- Installing: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/camera/camera_node
+-- Set runtime path of "/home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/camera/camera_node" to ""
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/lib/camera/machine_node
+-- Installing: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/launch
+-- Installing: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/launch/camera.launch.py
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/ament_index/resource_index/package_run_dependencies/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/ament_index/resource_index/parent_prefix_path/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/environment/ament_prefix_path.sh
+-- Installing: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/environment/path.sh
+-- Installing: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/environment/path.dsv
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/local_setup.bash
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/local_setup.sh
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/local_setup.zsh
+-- Installing: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/local_setup.dsv
+-- Installing: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/package.dsv
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/ament_index/resource_index/packages/camera
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/export_camera__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/export_camera__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/export_camera__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/export_camera__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/export_camera__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/export_camera__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/export_camera__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/camera__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/camera__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/camera__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/camera__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/camera__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/camera__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/camera__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/camera__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/cameraConfig.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/cmake/cameraConfig-version.cmake
+-- Up-to-date: /home/line/ROSlearning_LJK/01_HelloROS/camera/install/camera/share/camera/package.xml
