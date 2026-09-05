@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-980b7c5cd76e5a4e3257.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18
+					]
+				},
+				{
+					"build" : "village_interfaces__py",
+					"jsonFile" : "directory-village_interfaces__py-e0cc9347d7f69ac9d615.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/line/town_ws/src/build/village_interfaces/village_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "village_interfaces__rs",
+					"jsonFile" : "directory-village_interfaces__rs-3a7ae3a1b94fff2082e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/line/town_ws/src/build/village_interfaces/village_interfaces__rs",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "village_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_village_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_village_interfaces_egg-3950e3791d271a93f9f4.json",
+					"name" : "ament_cmake_python_build_village_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_village_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_village_interfaces-e529695eda7bf2fb0e2c.json",
+					"name" : "ament_cmake_python_copy_village_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8e5cdc82824657984ee6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces-2d9756bef19a4b88af9a.json",
+					"name" : "village_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__cpp-7cc1ddc1fc08083d56c5.json",
+					"name" : "village_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "village_interfaces__py::@12924cc67a50b8ed5749",
+					"jsonFile" : "target-village_interfaces__py-1fe7f6d9b12b50ea6982.json",
+					"name" : "village_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_generator_c-74da7a0b9ce1ad10e744.json",
+					"name" : "village_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_generator_py-b71af4fe75c27d2d390d.json",
+					"name" : "village_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_c-e71784b46f91e8463a47.json",
+					"name" : "village_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_c__pyext-c5cdbd531db4a35120a8.json",
+					"name" : "village_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_cpp-18fc9a21e4cc6af4b31f.json",
+					"name" : "village_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_fastrtps_c-eadda109a00755224e7c.json",
+					"name" : "village_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_fastrtps_c__pyext-7d13be9f8777ba0d43f7.json",
+					"name" : "village_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_fastrtps_cpp-899b6b0fcc4b3065780a.json",
+					"name" : "village_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_introspection_c-2a2eb884235605fe7987.json",
+					"name" : "village_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_introspection_c__pyext-82b967ce4f93c2b48cdd.json",
+					"name" : "village_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces__rosidl_typesupport_introspection_cpp-4c4b11279dc958f6f7b8.json",
+					"name" : "village_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "village_interfaces__rs::@f1362ff3556598d09a7c",
+					"jsonFile" : "target-village_interfaces__rs-02c1bab2a1a736e332a2.json",
+					"name" : "village_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_interfaces_uninstall-d20998af0efc280eedaa.json",
+					"name" : "village_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/line/town_ws/src/build/village_interfaces",
+		"source" : "/home/line/town_ws/src/village_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

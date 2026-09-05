@@ -1,0 +1,33 @@
+[0.423s] Invoking command in '/home/line/town_ws/src/village_li': AMENT_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/line/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/line/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/line/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/town_ws/install/village_li/lib/python3.10/site-packages:/home/line/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/line/town_ws/build/village_li/build install --record /home/line/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data
+[0.563s] running egg_info
+[0.570s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.570s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.570s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.570s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.570s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.586s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.586s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.586s] running build
+[0.587s] running build_py
+[0.587s] copying village_li/li4.py -> /home/line/town_ws/build/village_li/build/lib/village_li
+[0.587s] copying village_li/__init__.py -> /home/line/town_ws/build/village_li/build/lib/village_li
+[0.587s] copying village_li/li3_free.py -> /home/line/town_ws/build/village_li/build/lib/village_li
+[0.587s] copying village_li/li4_pop.py -> /home/line/town_ws/build/village_li/build/lib/village_li
+[0.588s] running install
+[0.592s] running install_lib
+[0.602s] copying /home/line/town_ws/build/village_li/build/lib/village_li/li4.py -> /home/line/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+[0.602s] copying /home/line/town_ws/build/village_li/build/lib/village_li/li3_free.py -> /home/line/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+[0.603s] byte-compiling /home/line/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc
+[0.604s] byte-compiling /home/line/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li3_free.py to li3_free.cpython-310.pyc
+[0.604s] running install_data
+[0.604s] copying resource/village_li -> /home/line/town_ws/install/village_li/share/ament_index/resource_index/packages
+[0.604s] copying package.xml -> /home/line/town_ws/install/village_li/share/village_li
+[0.605s] copying launch/village.launch.py -> /home/line/town_ws/install/village_li/share/village_li/launch
+[0.605s] running install_egg_info
+[0.613s] removing '/home/line/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[0.613s] Copying ../../build/village_li/village_li.egg-info to /home/line/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[0.613s] running install_scripts
+[0.629s] Installing li3_node script to /home/line/town_ws/install/village_li/lib/village_li
+[0.630s] Installing li4_node script to /home/line/town_ws/install/village_li/lib/village_li
+[0.630s] writing list of installed files to '/home/line/town_ws/build/village_li/install.log'
+[0.650s] Invoked command in '/home/line/town_ws/src/village_li' returned '0': AMENT_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/line/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/line/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/line/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/town_ws/install/village_li/lib/python3.10/site-packages:/home/line/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/line/town_ws/build/village_li/build install --record /home/line/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data

@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/village_zhang/village_zhang.egg-info/PKG-INFO
+writing dependency_links to ../build/village_zhang/village_zhang.egg-info/dependency_links.txt
+writing entry points to ../build/village_zhang/village_zhang.egg-info/entry_points.txt
+writing requirements to ../build/village_zhang/village_zhang.egg-info/requires.txt
+writing top-level names to ../build/village_zhang/village_zhang.egg-info/top_level.txt
+reading manifest file '../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+writing manifest file '../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+running build
+running build_py
+copying village_zhang/zhang3.py -> /home/line/town_ws/src/build/village_zhang/build/lib/village_zhang
+copying village_zhang/__init__.py -> /home/line/town_ws/src/build/village_zhang/build/lib/village_zhang
+running install
+running install_lib
+running install_data
+copying resource/village_zhang -> /home/line/town_ws/src/install/village_zhang/share/ament_index/resource_index/packages
+copying package.xml -> /home/line/town_ws/src/install/village_zhang/share/village_zhang
+running install_egg_info
+removing '/home/line/town_ws/src/install/village_zhang/lib/python3.10/site-packages/village_zhang-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/village_zhang/village_zhang.egg-info to /home/line/town_ws/src/install/village_zhang/lib/python3.10/site-packages/village_zhang-0.0.0-py3.10.egg-info
+running install_scripts
+Installing zhang3_node script to /home/line/town_ws/src/install/village_zhang/lib/village_zhang
+writing list of installed files to '/home/line/town_ws/src/build/village_zhang/install.log'

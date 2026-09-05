@@ -1,0 +1,26 @@
+[0.128s] Invoking command in '/home/line/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/line/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/line/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/line/town_ws/build/village_wang -- -j20 -l20
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.170s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[4.875s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[5.105s] [100%] Built target wang2_node
+[5.113s] Invoked command in '/home/line/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/line/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/line/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/line/town_ws/build/village_wang -- -j20 -l20
+[5.114s] Invoking command in '/home/line/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/line/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/line/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/line/town_ws/build/village_wang
+[5.121s] -- Install configuration: ""
+[5.121s] -- Execute custom install script
+[5.121s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[5.121s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[5.121s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[5.121s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[5.121s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[5.122s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[5.122s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[5.122s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[5.122s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[5.122s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[5.122s] -- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/package.dsv
+[5.130s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[5.130s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[5.131s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[5.131s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/share/village_wang/package.xml
+[5.131s] -- Up-to-date symlink: /home/line/town_ws/install/village_wang/lib/village_wang/wang2_node
+[5.133s] Invoked command in '/home/line/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/line/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/line/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/line/town_ws/build/village_wang

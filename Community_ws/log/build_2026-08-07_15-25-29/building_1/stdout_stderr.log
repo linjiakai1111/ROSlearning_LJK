@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/building_1/building_1.egg-info/PKG-INFO
+writing dependency_links to ../../build/building_1/building_1.egg-info/dependency_links.txt
+writing entry points to ../../build/building_1/building_1.egg-info/entry_points.txt
+writing requirements to ../../build/building_1/building_1.egg-info/requires.txt
+writing top-level names to ../../build/building_1/building_1.egg-info/top_level.txt
+reading manifest file '../../build/building_1/building_1.egg-info/SOURCES.txt'
+writing manifest file '../../build/building_1/building_1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying building_1/constructor.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+copying building_1/resident1.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+copying building_1/__init__.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+copying building_1/management.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+running install
+running install_lib
+copying /home/line/Community_ws/build/building_1/build/lib/building_1/constructor.py -> /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1
+byte-compiling /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1/constructor.py to constructor.cpython-310.pyc
+running install_data
+copying resource/building_1 -> /home/line/Community_ws/install/building_1/share/ament_index/resource_index/packages
+copying package.xml -> /home/line/Community_ws/install/building_1/share/building_1
+copying launch/building.launch.py -> /home/line/Community_ws/install/building_1/share/building_1/launch
+running install_egg_info
+removing '/home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/building_1/building_1.egg-info to /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing constructor_node script to /home/line/Community_ws/install/building_1/lib/building_1
+Installing management_node script to /home/line/Community_ws/install/building_1/lib/building_1
+Installing resident1_node script to /home/line/Community_ws/install/building_1/lib/building_1
+writing list of installed files to '/home/line/Community_ws/build/building_1/install.log'

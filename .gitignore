@@ -5,6 +5,8 @@ github_relate.txt
 /01_HelloROS/build/
 /01_HelloROS/install/
 /01_HelloROS/log/
+/01_HelloROS/camera/log/
 /02_HelloYaml/build/
 /02_HelloYaml/install/
 /02_HelloYaml/log/
+/02_HelloYaml/sensor/log/

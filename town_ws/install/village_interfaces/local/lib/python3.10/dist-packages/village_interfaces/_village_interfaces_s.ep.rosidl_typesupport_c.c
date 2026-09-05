@@ -1,0 +1,1 @@
+/home/line/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c

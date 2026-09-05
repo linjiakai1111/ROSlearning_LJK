@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable wang2_node[0m
+[100%] Built target wang2_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/line/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+-- Symlinking: /home/line/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/environment/path.sh
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/local_setup.bash
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/local_setup.sh
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/package.dsv
+-- Symlinking: /home/line/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+-- Symlinking: /home/line/town_ws/install/village_wang/share/village_wang/package.xml
+-- Symlinking: /home/line/town_ws/install/village_wang/lib/village_wang/wang2_node

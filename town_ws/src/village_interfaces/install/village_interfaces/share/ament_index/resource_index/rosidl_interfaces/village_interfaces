@@ -1,0 +1,6 @@
+msg/Novel.idl
+msg/Novel.msg
+srv/BorrowMoney.idl
+srv/BorrowMoney.srv
+srv/BorrowMoney_Request.msg
+srv/BorrowMoney_Response.msg

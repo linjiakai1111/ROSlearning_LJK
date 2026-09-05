@@ -1,0 +1,1 @@
+/home/line/town_ws/src/village_interfaces/msg/Novel.msg

@@ -1,0 +1,1 @@
+/home/line/town_ws/build/village_interfaces/rosidl_cmake/srv/BorrowMoney_Response.msg

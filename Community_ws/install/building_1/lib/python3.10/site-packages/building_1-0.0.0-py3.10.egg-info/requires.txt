@@ -1,0 +1,5 @@
+setuptools
+community_interfaces
+
+[test]
+pytest

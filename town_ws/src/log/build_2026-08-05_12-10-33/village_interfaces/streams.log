@@ -1,0 +1,252 @@
+[0.006s] Invoking command in '/home/line/town_ws/src/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/src/build/village_interfaces -- -j20 -l20
+[0.046s] [  2%] Built target village_interfaces__cpp
+[0.047s] [  4%] Built target village_interfaces__rs
+[0.049s] [ 14%] Built target village_interfaces__rosidl_generator_c
+[0.055s] [ 14%] Built target ament_cmake_python_copy_village_interfaces
+[0.061s] Consolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_cpp
+[0.064s] Consolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_c
+[0.065s] Consolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_c
+[0.067s] Consolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp
+[0.069s] Consolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.071s] Consolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c
+[0.077s] [ 25%] Built target village_interfaces__rosidl_typesupport_cpp
+[0.079s] [ 35%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[0.080s] [ 45%] Built target village_interfaces__rosidl_typesupport_c
+[0.081s] [ 56%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[0.083s] [ 66%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.085s] [ 77%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[0.102s] [ 77%] Built target village_interfaces
+[0.118s] [ 79%] Generating Python code for ROS interfaces
+[0.190s] running egg_info
+[0.196s] writing village_interfaces.egg-info/PKG-INFO
+[0.196s] writing dependency_links to village_interfaces.egg-info/dependency_links.txt
+[0.196s] writing top-level names to village_interfaces.egg-info/top_level.txt
+[0.215s] reading manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[0.215s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[0.233s] [ 79%] Built target ament_cmake_python_build_village_interfaces_egg
+[0.435s] [ 79%] Built target village_interfaces__py
+[0.449s] [ 81%] Building C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o
+[0.449s] [ 85%] Building C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o
+[0.449s] [ 85%] Building C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o
+[0.541s] [ 87%] Linking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__rosidl_generator_py.so
+[0.590s] [ 87%] Built target village_interfaces__rosidl_generator_py
+[0.612s] [ 89%] Building C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o
+[0.614s] [ 93%] Building C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[0.614s] [ 93%] Building C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[0.678s] [100%] Linking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.678s] [100%] Linking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.678s] [100%] Linking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.708s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.709s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.709s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[0.719s] Invoked command in '/home/line/town_ws/src/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/src/build/village_interfaces -- -j20 -l20
+[0.730s] Invoking command in '/home/line/town_ws/src/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/line/town_ws/src/build/village_interfaces
+[0.739s] -- Install configuration: ""
+[0.739s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[0.739s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces
+[0.739s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[0.739s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.h
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.c
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.h
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.h
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.h
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/borrow_money.h
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__functions.h
+[0.740s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__struct.h
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__functions.c
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.h
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__functions.c
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__functions.h
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__struct.h
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__type_support.h
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/sell_novel.h
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[0.741s] -- Installing: /home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[0.742s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[0.742s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces
+[0.742s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[0.742s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[0.742s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[0.742s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.742s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[0.742s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[0.742s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h
+[0.742s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_c.h
+[0.743s] -- Installing: /home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.743s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[0.743s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces
+[0.743s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[0.743s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.743s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.hpp
+[0.743s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[0.743s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__builder.hpp
+[0.743s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.hpp
+[0.743s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__traits.hpp
+[0.743s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.hpp
+[0.743s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[0.743s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/borrow_money.hpp
+[0.743s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/sell_novel.hpp
+[0.744s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[0.744s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__builder.hpp
+[0.744s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__type_support.hpp
+[0.744s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__builder.hpp
+[0.744s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__traits.hpp
+[0.744s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__traits.hpp
+[0.744s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__struct.hpp
+[0.744s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.hpp
+[0.744s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__struct.hpp
+[0.744s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces
+[0.745s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[0.745s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.745s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[0.745s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.745s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/dds_fastrtps
+[0.745s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[0.745s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[0.745s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp
+[0.745s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/dds_fastrtps
+[0.745s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.745s] -- Installing: /home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.745s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[0.745s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces
+[0.745s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[0.746s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.746s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[0.746s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.c
+[0.746s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[0.746s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[0.746s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[0.746s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_c.h
+[0.746s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__type_support.c
+[0.746s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.c
+[0.746s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+[0.746s] -- Installing: /home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[0.746s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[0.746s] -- Installing: /home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[0.746s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[0.746s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces
+[0.746s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[0.747s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.cpp
+[0.747s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[0.747s] -- Up-to-date: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__type_support.cpp
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.cpp
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_cpp.hpp
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.747s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[0.747s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[0.747s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel.py
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel_s.c
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_sell_novel.py
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/__init__.py
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_borrow_money_s.c
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_sell_novel_s.c
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_borrow_money.py
+[0.748s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.749s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.749s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c
+[0.749s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py
+[0.749s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.749s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.749s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/libvillage_interfaces__rosidl_generator_py.so
+[0.749s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.772s] Listing '/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces'...
+[0.772s] Compiling '/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py'...
+[0.772s] Listing '/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg'...
+[0.772s] Compiling '/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py'...
+[0.772s] Compiling '/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel.py'...
+[0.772s] Listing '/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv'...
+[0.772s] Compiling '/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/__init__.py'...
+[0.772s] Compiling '/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_borrow_money.py'...
+[0.772s] Compiling '/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_sell_novel.py'...
+[0.774s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.774s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.774s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.775s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.775s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so
+[0.775s] -- Set runtime path of "/home/line/town_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so" to ""
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/ament_index/resource_index/rust_packages/village_interfaces
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/src
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/src/msg
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/src/msg/rmw.rs
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/src/lib.rs
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/src/srv
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/src/srv/rmw.rs
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/src/msg.rs
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/src/srv.rs
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/build.rs
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/rust/Cargo.toml
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/msg/Novel.idl
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.idl
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/srv/SellNovel.idl
+[0.775s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/msg/Novel.msg
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.srv
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Request.msg
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Response.msg
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/srv/SellNovel.srv
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/srv/SellNovel_Request.msg
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/srv/SellNovel_Response.msg
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/environment/path.sh
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/local_setup.bash
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/local_setup.sh
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/package.dsv
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport.cmake
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.776s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cppExport.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.777s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[0.778s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[0.778s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[0.778s] -- Installing: /home/line/town_ws/src/install/village_interfaces/share/village_interfaces/package.xml
+[0.779s] Invoked command in '/home/line/town_ws/src/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/line/town_ws/src/build/village_interfaces

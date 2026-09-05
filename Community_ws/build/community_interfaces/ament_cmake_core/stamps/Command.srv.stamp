@@ -1,0 +1,5 @@
+#request
+string command
+---
+#response
+bool success

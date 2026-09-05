@@ -1,0 +1,25 @@
+[0.421s] Invoking command in '/home/line/town_ws/src/village_zhang': AMENT_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/line/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/line/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/line/town_ws/build/village_zhang/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/town_ws/install/village_zhang/lib/python3.10/site-packages:/home/line/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_zhang build --build-base /home/line/town_ws/build/village_zhang/build install --record /home/line/town_ws/build/village_zhang/install.log --install-scripts $base/lib/village_zhang --single-version-externally-managed install_data
+[0.575s] running egg_info
+[0.582s] writing ../../build/village_zhang/village_zhang.egg-info/PKG-INFO
+[0.583s] writing dependency_links to ../../build/village_zhang/village_zhang.egg-info/dependency_links.txt
+[0.583s] writing entry points to ../../build/village_zhang/village_zhang.egg-info/entry_points.txt
+[0.583s] writing requirements to ../../build/village_zhang/village_zhang.egg-info/requires.txt
+[0.583s] writing top-level names to ../../build/village_zhang/village_zhang.egg-info/top_level.txt
+[0.599s] reading manifest file '../../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+[0.600s] writing manifest file '../../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+[0.600s] running build
+[0.600s] running build_py
+[0.600s] copying village_zhang/zhang3.py -> /home/line/town_ws/build/village_zhang/build/lib/village_zhang
+[0.600s] copying village_zhang/__init__.py -> /home/line/town_ws/build/village_zhang/build/lib/village_zhang
+[0.601s] running install
+[0.603s] running install_lib
+[0.611s] running install_data
+[0.611s] copying resource/village_zhang -> /home/line/town_ws/install/village_zhang/share/ament_index/resource_index/packages
+[0.611s] copying package.xml -> /home/line/town_ws/install/village_zhang/share/village_zhang
+[0.611s] running install_egg_info
+[0.619s] removing '/home/line/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang-0.0.0-py3.10.egg-info' (and everything under it)
+[0.619s] Copying ../../build/village_zhang/village_zhang.egg-info to /home/line/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang-0.0.0-py3.10.egg-info
+[0.620s] running install_scripts
+[0.636s] Installing zhang3_node script to /home/line/town_ws/install/village_zhang/lib/village_zhang
+[0.636s] writing list of installed files to '/home/line/town_ws/build/village_zhang/install.log'
+[0.657s] Invoked command in '/home/line/town_ws/src/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/line/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/line/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/line/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/line/town_ws/build/village_zhang/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/town_ws/install/village_zhang/lib/python3.10/site-packages:/home/line/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_zhang build --build-base /home/line/town_ws/build/village_zhang/build install --record /home/line/town_ws/build/village_zhang/install.log --install-scripts $base/lib/village_zhang --single-version-externally-managed install_data

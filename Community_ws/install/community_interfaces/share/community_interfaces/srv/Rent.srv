@@ -1,0 +1,5 @@
+#request
+uint16 ask_money
+---
+#response
+uint16 pay_money

@@ -1,0 +1,9 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'srv/rent.srv' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/line/Community_ws/src/community_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:11 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:1193：cmake_check_build_system] 错误 1

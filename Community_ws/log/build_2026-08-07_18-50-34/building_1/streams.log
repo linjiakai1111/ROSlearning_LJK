@@ -1,0 +1,34 @@
+[0.330s] Invoking command in '/home/line/Community_ws/src/building_1': PYTHONPATH=/home/line/Community_ws/build/building_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/Community_ws/install/building_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/building_1 build --build-base /home/line/Community_ws/build/building_1/build install --record /home/line/Community_ws/build/building_1/install.log --install-scripts $base/lib/building_1 --single-version-externally-managed install_data
+[0.453s] running egg_info
+[0.459s] writing ../../build/building_1/building_1.egg-info/PKG-INFO
+[0.459s] writing dependency_links to ../../build/building_1/building_1.egg-info/dependency_links.txt
+[0.459s] writing entry points to ../../build/building_1/building_1.egg-info/entry_points.txt
+[0.459s] writing requirements to ../../build/building_1/building_1.egg-info/requires.txt
+[0.459s] writing top-level names to ../../build/building_1/building_1.egg-info/top_level.txt
+[0.473s] reading manifest file '../../build/building_1/building_1.egg-info/SOURCES.txt'
+[0.473s] writing manifest file '../../build/building_1/building_1.egg-info/SOURCES.txt'
+[0.474s] running build
+[0.474s] running build_py
+[0.474s] copying building_1/constructor.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+[0.474s] copying building_1/resident1.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+[0.474s] copying building_1/__init__.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+[0.474s] copying building_1/management.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+[0.474s] copying building_1/tenant.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+[0.474s] running install
+[0.476s] running install_lib
+[0.483s] copying /home/line/Community_ws/build/building_1/build/lib/building_1/resident1.py -> /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1
+[0.483s] byte-compiling /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1/resident1.py to resident1.cpython-310.pyc
+[0.484s] running install_data
+[0.484s] copying resource/building_1 -> /home/line/Community_ws/install/building_1/share/ament_index/resource_index/packages
+[0.484s] copying package.xml -> /home/line/Community_ws/install/building_1/share/building_1
+[0.484s] copying launch/building.launch.py -> /home/line/Community_ws/install/building_1/share/building_1/launch
+[0.484s] running install_egg_info
+[0.491s] removing '/home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.491s] Copying ../../build/building_1/building_1.egg-info to /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1-0.0.0-py3.10.egg-info
+[0.491s] running install_scripts
+[0.505s] Installing constructor_node script to /home/line/Community_ws/install/building_1/lib/building_1
+[0.505s] Installing management_node script to /home/line/Community_ws/install/building_1/lib/building_1
+[0.505s] Installing resident1_node script to /home/line/Community_ws/install/building_1/lib/building_1
+[0.505s] Installing tenant_node script to /home/line/Community_ws/install/building_1/lib/building_1
+[0.505s] writing list of installed files to '/home/line/Community_ws/build/building_1/install.log'
+[0.517s] Invoked command in '/home/line/Community_ws/src/building_1' returned '0': PYTHONPATH=/home/line/Community_ws/build/building_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/Community_ws/install/building_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/building_1 build --build-base /home/line/Community_ws/build/building_1/build install --record /home/line/Community_ws/build/building_1/install.log --install-scripts $base/lib/building_1 --single-version-externally-managed install_data

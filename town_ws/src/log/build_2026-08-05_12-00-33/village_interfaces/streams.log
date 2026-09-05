@@ -1,0 +1,100 @@
+[0.006s] Invoking command in '/home/line/town_ws/src/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/line/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/line/town_ws/src/install/village_interfaces
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.332s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.335s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.439s] -- Detecting CXX compile features
+[0.440s] -- Detecting CXX compile features - done
+[0.573s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.823s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.920s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.948s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.951s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.957s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.966s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.012s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.020s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.229s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.769s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.770s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.786s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.787s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.787s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.787s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.801s] -- Found PythonExtra: .so  
+[1.930s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.930s] -- Configured cppcheck include dirs: 
+[1.931s] -- Configured cppcheck exclude dirs and/or files: 
+[1.933s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.936s] -- Added test 'lint_cmake' to check CMake code style
+[1.938s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.952s] -- Added test 'uncrustify' to check C / C++ code style
+[1.952s] -- Configured uncrustify additional arguments: 
+[1.954s] -- Added test 'xmllint' to check XML markup files
+[1.959s] -- Configuring done
+[1.978s] -- Generating done
+[1.985s] -- Build files have been written to: /home/line/town_ws/src/build/village_interfaces
+[1.991s] Invoked command in '/home/line/town_ws/src/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/line/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/line/town_ws/src/install/village_interfaces
+[1.992s] Invoking command in '/home/line/town_ws/src/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/src/build/village_interfaces -- -j20 -l20
+[2.023s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.032s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.032s] [  6%] Built target ament_cmake_python_copy_village_interfaces
+[2.032s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.160s] running egg_info
+[2.167s] creating village_interfaces.egg-info
+[2.167s] writing village_interfaces.egg-info/PKG-INFO
+[2.167s] writing dependency_links to village_interfaces.egg-info/dependency_links.txt
+[2.167s] writing top-level names to village_interfaces.egg-info/top_level.txt
+[2.167s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[2.205s] reading manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[2.213s] [  6%] Built target village_interfaces__rs
+[2.219s] Traceback (most recent call last):
+[2.220s]   File "/home/line/town_ws/src/build/village_interfaces/ament_cmake_python/village_interfaces/setup.py", line 4, in <module>
+[2.220s]     setup(
+[2.220s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[2.220s]     return distutils.core.setup(**attrs)  # type: ignore[return-value]
+[2.220s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[2.220s]     return run_commands(dist)
+[2.220s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[2.220s]     dist.run_commands()
+[2.220s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1001, in run_commands
+[2.220s]     self.run_command(cmd)
+[2.220s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1107, in run_command
+[2.221s]     super().run_command(command)
+[2.221s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1020, in run_command
+[2.221s]     cmd_obj.run()
+[2.221s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 338, in run
+[2.221s]     self.find_sources()
+[2.221s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 346, in find_sources
+[2.221s]     mm.run()
+[2.221s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 573, in run
+[2.221s]     self.prune_file_list()
+[2.221s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 163, in prune_file_list
+[2.221s]     super().prune_file_list()
+[2.221s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[2.221s]     base_dir = self.distribution.get_fullname()
+[2.221s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[2.222s]     return _distribution_fullname(self.get_name(), self.get_version())
+[2.222s]   File "/home/line/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[2.222s]     canonicalize_version(version, strip_trailing_zero=False),
+[2.222s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[2.238s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_village_interfaces_egg.dir/build.make:70：CMakeFiles/ament_cmake_python_build_village_interfaces_egg] 错误 1
+[2.238s] gmake[1]: *** [CMakeFiles/Makefile2:466：CMakeFiles/ament_cmake_python_build_village_interfaces_egg.dir/all] 错误 2
+[2.238s] gmake[1]: *** 正在等待未完成的任务....
+[2.259s] [  8%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.o[0m
+[2.259s] [ 10%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o[0m
+[2.261s] [ 12%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o[0m
+[2.267s] [ 12%] Built target village_interfaces__cpp
+[2.302s] [ 14%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[2.335s] [ 14%] Built target village_interfaces__rosidl_generator_c
+[2.335s] gmake: *** [Makefile:146：all] 错误 2
+[2.338s] Invoked command in '/home/line/town_ws/src/build/village_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/src/build/village_interfaces -- -j20 -l20

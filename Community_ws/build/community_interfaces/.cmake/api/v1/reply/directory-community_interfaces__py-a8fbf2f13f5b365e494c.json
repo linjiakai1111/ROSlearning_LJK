@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "community_interfaces__py",
+		"source" : "/home/line/Community_ws/build/community_interfaces/community_interfaces__py"
+	}
+}

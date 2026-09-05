@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from village_interfaces/msg/Novel.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module village_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "此文件用于创建自定义包" "\n"
+      "标准消息接口std_msgs下的String类型" "\n"
+      "std_msgs/String content" "\n"
+      "图像消息，调用sensor_msgs下的Image类型" "\n"
+      "sensor_msgs/Image Image" "\n"
+      "但完成了代码的编写还不够，我们还要在CMakeLists.txt中告诉编译器，要把Novel_msg转换成Python库和C++的头文件" "\n"
+      "原始数据类型")
+    struct Novel {
+      string content;
+
+      @verbatim (language="comment", text=
+        "调用已有的消息类型")
+      sensor_msgs::msg::Image image;
+    };
+  };
+};

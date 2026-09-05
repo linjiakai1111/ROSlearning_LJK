@@ -1,0 +1,2 @@
+Invoking command in '/home/line/town_ws/src/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/src/build/village_interfaces -- -j20 -l20
+Invoked command in '/home/line/town_ws/src/build/village_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/src/build/village_interfaces -- -j20 -l20

@@ -1,0 +1,2 @@
+Invoking command in '/home/line/Community_ws/build/community_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/line/Community_ws/install/building_1:/opt/ros/humble /usr/bin/cmake --build /home/line/Community_ws/build/community_interfaces -- -j20 -l20
+Invoked command in '/home/line/Community_ws/build/community_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/line/Community_ws/install/building_1:/opt/ros/humble /usr/bin/cmake --build /home/line/Community_ws/build/community_interfaces -- -j20 -l20

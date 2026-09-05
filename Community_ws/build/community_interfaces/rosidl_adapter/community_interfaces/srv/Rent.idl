@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from community_interfaces/srv/Rent.srv
+// generated code does not contain a copyright notice
+
+
+module community_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct Rent_Request {
+      uint16 ask_money;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct Rent_Response {
+      uint16 pay_money;
+    };
+  };
+};

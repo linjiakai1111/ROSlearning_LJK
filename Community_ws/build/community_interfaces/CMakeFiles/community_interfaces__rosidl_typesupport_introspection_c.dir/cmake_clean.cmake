@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/community_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/community_interfaces/msg/detail/noise_element__type_support.c.o"
+  "CMakeFiles/community_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/community_interfaces/msg/detail/noise_element__type_support.c.o.d"
+  "CMakeFiles/community_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/community_interfaces/srv/detail/command__type_support.c.o"
+  "CMakeFiles/community_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/community_interfaces/srv/detail/command__type_support.c.o.d"
+  "CMakeFiles/community_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/community_interfaces/srv/detail/complain__type_support.c.o"
+  "CMakeFiles/community_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/community_interfaces/srv/detail/complain__type_support.c.o.d"
+  "CMakeFiles/community_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/community_interfaces/srv/detail/rent__type_support.c.o"
+  "CMakeFiles/community_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/community_interfaces/srv/detail/rent__type_support.c.o.d"
+  "libcommunity_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libcommunity_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/community_interfaces/msg/detail/noise_element__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/community_interfaces/msg/detail/noise_element__type_support.c"
+  "rosidl_typesupport_introspection_c/community_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/community_interfaces/srv/detail/command__type_support.c"
+  "rosidl_typesupport_introspection_c/community_interfaces/srv/detail/complain__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/community_interfaces/srv/detail/complain__type_support.c"
+  "rosidl_typesupport_introspection_c/community_interfaces/srv/detail/rent__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/community_interfaces/srv/detail/rent__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/community_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/village_zhang/village_zhang.egg-info
+writing ../../build/village_zhang/village_zhang.egg-info/PKG-INFO
+writing dependency_links to ../../build/village_zhang/village_zhang.egg-info/dependency_links.txt
+writing entry points to ../../build/village_zhang/village_zhang.egg-info/entry_points.txt
+writing requirements to ../../build/village_zhang/village_zhang.egg-info/requires.txt
+writing top-level names to ../../build/village_zhang/village_zhang.egg-info/top_level.txt
+writing manifest file '../../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+reading manifest file '../../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+writing manifest file '../../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/line/town_ws/build/village_zhang/build
+creating /home/line/town_ws/build/village_zhang/build/lib
+creating /home/line/town_ws/build/village_zhang/build/lib/village_zhang
+copying village_zhang/zhang3.py -> /home/line/town_ws/build/village_zhang/build/lib/village_zhang
+copying village_zhang/__init__.py -> /home/line/town_ws/build/village_zhang/build/lib/village_zhang
+running install
+running install_lib
+creating /home/line/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang
+copying /home/line/town_ws/build/village_zhang/build/lib/village_zhang/zhang3.py -> /home/line/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang
+copying /home/line/town_ws/build/village_zhang/build/lib/village_zhang/__init__.py -> /home/line/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang
+byte-compiling /home/line/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang/zhang3.py to zhang3.cpython-310.pyc
+byte-compiling /home/line/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/line/town_ws/install/village_zhang/share/ament_index
+creating /home/line/town_ws/install/village_zhang/share/ament_index/resource_index
+creating /home/line/town_ws/install/village_zhang/share/ament_index/resource_index/packages
+copying resource/village_zhang -> /home/line/town_ws/install/village_zhang/share/ament_index/resource_index/packages
+copying package.xml -> /home/line/town_ws/install/village_zhang/share/village_zhang
+running install_egg_info
+Copying ../../build/village_zhang/village_zhang.egg-info to /home/line/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang-0.0.0-py3.10.egg-info
+running install_scripts
+Installing zhang3_node script to /home/line/town_ws/install/village_zhang/lib/village_zhang
+writing list of installed files to '/home/line/town_ws/build/village_zhang/install.log'

@@ -1,0 +1,34 @@
+[0.309s] Invoking command in '/home/line/Community_ws/src/building_1': PYTHONPATH=/home/line/Community_ws/build/building_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/Community_ws/install/building_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/building_1 build --build-base /home/line/Community_ws/build/building_1/build install --record /home/line/Community_ws/build/building_1/install.log --install-scripts $base/lib/building_1 --single-version-externally-managed install_data
+[0.430s] running egg_info
+[0.436s] writing ../../build/building_1/building_1.egg-info/PKG-INFO
+[0.436s] writing dependency_links to ../../build/building_1/building_1.egg-info/dependency_links.txt
+[0.436s] writing entry points to ../../build/building_1/building_1.egg-info/entry_points.txt
+[0.436s] writing requirements to ../../build/building_1/building_1.egg-info/requires.txt
+[0.436s] writing top-level names to ../../build/building_1/building_1.egg-info/top_level.txt
+[0.450s] reading manifest file '../../build/building_1/building_1.egg-info/SOURCES.txt'
+[0.451s] writing manifest file '../../build/building_1/building_1.egg-info/SOURCES.txt'
+[0.451s] running build
+[0.451s] running build_py
+[0.451s] copying building_1/constructor.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+[0.451s] copying building_1/resident1.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+[0.451s] copying building_1/__init__.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+[0.451s] copying building_1/management.py -> /home/line/Community_ws/build/building_1/build/lib/building_1
+[0.451s] running install
+[0.454s] running install_lib
+[0.460s] copying /home/line/Community_ws/build/building_1/build/lib/building_1/resident1.py -> /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1
+[0.460s] copying /home/line/Community_ws/build/building_1/build/lib/building_1/management.py -> /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1
+[0.460s] byte-compiling /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1/resident1.py to resident1.cpython-310.pyc
+[0.461s] byte-compiling /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1/management.py to management.cpython-310.pyc
+[0.461s] running install_data
+[0.461s] copying resource/building_1 -> /home/line/Community_ws/install/building_1/share/ament_index/resource_index/packages
+[0.461s] copying package.xml -> /home/line/Community_ws/install/building_1/share/building_1
+[0.462s] copying launch/building.launch.py -> /home/line/Community_ws/install/building_1/share/building_1/launch
+[0.462s] running install_egg_info
+[0.469s] removing '/home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.469s] Copying ../../build/building_1/building_1.egg-info to /home/line/Community_ws/install/building_1/lib/python3.10/site-packages/building_1-0.0.0-py3.10.egg-info
+[0.469s] running install_scripts
+[0.483s] Installing constructor_node script to /home/line/Community_ws/install/building_1/lib/building_1
+[0.483s] Installing management_node script to /home/line/Community_ws/install/building_1/lib/building_1
+[0.483s] Installing resident1_node script to /home/line/Community_ws/install/building_1/lib/building_1
+[0.483s] writing list of installed files to '/home/line/Community_ws/build/building_1/install.log'
+[0.494s] Invoked command in '/home/line/Community_ws/src/building_1' returned '0': PYTHONPATH=/home/line/Community_ws/build/building_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/Community_ws/install/building_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/building_1 build --build-base /home/line/Community_ws/build/building_1/build install --record /home/line/Community_ws/build/building_1/install.log --install-scripts $base/lib/building_1 --single-version-externally-managed install_data

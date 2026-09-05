@@ -1,0 +1,2 @@
+Invoking command in '/home/line/Community_ws/build/community_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/line/Community_ws/src/community_interfaces -DCMAKE_INSTALL_PREFIX=/home/line/Community_ws/install/community_interfaces
+Invoked command in '/home/line/Community_ws/build/community_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/line/Community_ws/src/community_interfaces -DCMAKE_INSTALL_PREFIX=/home/line/Community_ws/install/community_interfaces

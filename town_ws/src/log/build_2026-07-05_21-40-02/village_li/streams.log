@@ -1,0 +1,40 @@
+[0.307s] Invoking command in '/home/line/town_ws/src/village_li': PYTHONPATH=/home/line/town_ws/src/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/town_ws/src/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/village_li build --build-base /home/line/town_ws/src/build/village_li/build install --record /home/line/town_ws/src/build/village_li/install.log --single-version-externally-managed install_data
+[0.418s] running egg_info
+[0.419s] creating ../build/village_li/village_li.egg-info
+[0.419s] writing ../build/village_li/village_li.egg-info/PKG-INFO
+[0.419s] writing dependency_links to ../build/village_li/village_li.egg-info/dependency_links.txt
+[0.419s] writing entry points to ../build/village_li/village_li.egg-info/entry_points.txt
+[0.419s] writing requirements to ../build/village_li/village_li.egg-info/requires.txt
+[0.419s] writing top-level names to ../build/village_li/village_li.egg-info/top_level.txt
+[0.419s] writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.420s] reading manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.420s] writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.420s] running build
+[0.420s] running build_py
+[0.420s] creating /home/line/town_ws/src/build/village_li/build
+[0.420s] creating /home/line/town_ws/src/build/village_li/build/lib
+[0.420s] creating /home/line/town_ws/src/build/village_li/build/lib/village_li
+[0.421s] copying village_li/li4.py -> /home/line/town_ws/src/build/village_li/build/lib/village_li
+[0.421s] copying village_li/__init__.py -> /home/line/town_ws/src/build/village_li/build/lib/village_li
+[0.421s] copying village_li/li4_pop.py -> /home/line/town_ws/src/build/village_li/build/lib/village_li
+[0.421s] running install
+[0.421s] running install_lib
+[0.421s] creating /home/line/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li
+[0.421s] copying /home/line/town_ws/src/build/village_li/build/lib/village_li/li4.py -> /home/line/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li
+[0.421s] copying /home/line/town_ws/src/build/village_li/build/lib/village_li/__init__.py -> /home/line/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li
+[0.421s] copying /home/line/town_ws/src/build/village_li/build/lib/village_li/li4_pop.py -> /home/line/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li
+[0.421s] byte-compiling /home/line/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc
+[0.422s] byte-compiling /home/line/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li/__init__.py to __init__.cpython-310.pyc
+[0.422s] byte-compiling /home/line/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li/li4_pop.py to li4_pop.cpython-310.pyc
+[0.422s] running install_data
+[0.422s] creating /home/line/town_ws/src/install/village_li/share/ament_index
+[0.422s] creating /home/line/town_ws/src/install/village_li/share/ament_index/resource_index
+[0.422s] creating /home/line/town_ws/src/install/village_li/share/ament_index/resource_index/packages
+[0.422s] copying resource/village_li -> /home/line/town_ws/src/install/village_li/share/ament_index/resource_index/packages
+[0.422s] copying package.xml -> /home/line/town_ws/src/install/village_li/share/village_li
+[0.422s] running install_egg_info
+[0.423s] Copying ../build/village_li/village_li.egg-info to /home/line/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[0.423s] running install_scripts
+[0.434s] Installing li4_node script to /home/line/town_ws/src/install/village_li/lib/village_li
+[0.434s] writing list of installed files to '/home/line/town_ws/src/build/village_li/install.log'
+[0.446s] Invoked command in '/home/line/town_ws/src/village_li' returned '0': PYTHONPATH=/home/line/town_ws/src/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/line/town_ws/src/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/village_li build --build-base /home/line/town_ws/src/build/village_li/build install --record /home/line/town_ws/src/build/village_li/install.log --single-version-externally-managed install_data

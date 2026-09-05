@@ -1,0 +1,12 @@
+setup.py
+community_interfaces/__init__.py
+community_interfaces.egg-info/PKG-INFO
+community_interfaces.egg-info/SOURCES.txt
+community_interfaces.egg-info/dependency_links.txt
+community_interfaces.egg-info/top_level.txt
+community_interfaces/msg/__init__.py
+community_interfaces/msg/_noise_element.py
+community_interfaces/srv/__init__.py
+community_interfaces/srv/_command.py
+community_interfaces/srv/_complain.py
+community_interfaces/srv/_rent.py
