@@ -10,3 +10,10 @@ github_relate.txt
 /02_HelloYaml/install/
 /02_HelloYaml/log/
 /02_HelloYaml/sensor/log/
+/town_ws/build/
+/town_ws/install/
+/town_ws/log/
+/town_ws/camera/log/
+/Community_ws/build/
+/Community_ws/install/
+/Community_ws/log/

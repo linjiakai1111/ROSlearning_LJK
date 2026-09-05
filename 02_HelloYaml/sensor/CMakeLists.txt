@@ -23,6 +23,7 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PoseBag.msg"
+  "msg/OriginPose.msg"
   DEPENDENCIES std_msgs
 )
 
@@ -30,12 +31,15 @@ rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typ
 
 add_executable(sensor_node src/sensor.cpp)
 add_executable(brain_node src/brain.cpp)
+add_executable(robot_node src/robot.cpp)
 
 ament_target_dependencies(sensor_node rclcpp std_msgs)
 ament_target_dependencies(brain_node rclcpp std_msgs)
+ament_target_dependencies(robot_node rclcpp std_msgs)
 
 target_link_libraries(sensor_node "${cpp_typesupport_target}")
 target_link_libraries(brain_node "${cpp_typesupport_target}")
+target_link_libraries(robot_node "${cpp_typesupport_target}")
 
 install(TARGETS
   sensor_node
@@ -43,6 +47,10 @@ install(TARGETS
 
 install(TARGETS
   brain_node
+  DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS
+  robot_node
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch

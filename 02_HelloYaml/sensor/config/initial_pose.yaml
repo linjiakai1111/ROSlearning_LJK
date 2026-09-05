@@ -1,0 +1,6 @@
+robot_node:
+  ros__parameters:
+   r: 600.0 #mm
+   sita: 6.28 #arcch
+   is_init: false
+   pub_ms: 1000 #ms

@@ -16,5 +16,14 @@ def generate_launch_description():
     executable="brain_node",
     output="screen",
   )
-  launch_d=LaunchDescription([sensor_node,brain_node])
+  robot_node=Node(
+    package="sensor",
+    executable="robot_node",
+    name="robot_node",
+    output="screen",
+    parameters=[
+      "sensor/config/initial_pose.yaml"
+    ]
+  )
+  launch_d=LaunchDescription([sensor_node,brain_node,robot_node])
   return launch_d
