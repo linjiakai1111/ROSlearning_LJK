@@ -1,1 +1,0 @@
-/home/line/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/srv/detail/borrow_money__type_support.hpp

@@ -1,1 +1,0 @@
-/home/line/town_ws/build/village_interfaces/rosidl_generator_rs/village_interfaces/rust/src/msg/rmw.rs

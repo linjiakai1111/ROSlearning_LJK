@@ -1,1 +1,0 @@
-/home/line/town_ws/build/village_interfaces/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_cpp.hpp

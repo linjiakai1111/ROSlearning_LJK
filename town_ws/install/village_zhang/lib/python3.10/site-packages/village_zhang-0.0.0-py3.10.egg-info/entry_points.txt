@@ -1,2 +1,0 @@
-[console_scripts]
-zhang3_node = village_zhang.zhang3:main

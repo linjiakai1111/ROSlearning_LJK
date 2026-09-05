@@ -1,6 +1,0 @@
-Invoking command in '/home/line/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/line/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/line/town_ws/install/village_interfaces
-Invoked command in '/home/line/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/line/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/line/town_ws/install/village_interfaces
-Invoking command in '/home/line/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/build/village_interfaces -- -j20 -l20
-Invoked command in '/home/line/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/build/village_interfaces -- -j20 -l20
-Invoking command in '/home/line/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/line/town_ws/build/village_interfaces
-Invoked command in '/home/line/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/line/town_ws/build/village_interfaces

@@ -1,1 +1,0 @@
-/home/line/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/srv/_borrow_money.py

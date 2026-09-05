@@ -1,1 +1,0 @@
-/home/line/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/srv/sell_novel.h

@@ -1,1 +1,0 @@
-/home/line/town_ws/build/village_interfaces/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h

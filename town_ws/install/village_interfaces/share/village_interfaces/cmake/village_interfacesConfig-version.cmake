@@ -1,1 +1,0 @@
-/home/line/town_ws/build/village_interfaces/ament_cmake_core/village_interfacesConfig-version.cmake

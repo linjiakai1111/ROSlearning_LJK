@@ -1,1 +1,0 @@
-/home/line/town_ws/build/village_interfaces/ament_cmake_python/village_interfaces/village_interfaces.egg-info/dependency_links.txt

@@ -1,1 +1,0 @@
-/home/line/town_ws/build/village_wang/ament_cmake_environment_hooks/local_setup.bash

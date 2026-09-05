@@ -1,4 +1,0 @@
-Invoking command in '/home/line/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/line/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/build/village_interfaces -- -j20 -l20
-Invoked command in '/home/line/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/line/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/line/town_ws/build/village_interfaces -- -j20 -l20
-Invoking command in '/home/line/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/line/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/line/town_ws/build/village_interfaces
-Invoked command in '/home/line/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/line/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/line/town_ws/build/village_interfaces
