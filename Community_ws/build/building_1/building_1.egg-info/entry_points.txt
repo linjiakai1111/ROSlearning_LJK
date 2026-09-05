@@ -1,5 +1,0 @@
-[console_scripts]
-constructor_node = building_1.constructor:main
-management_node = building_1.management:main
-resident1_node = building_1.resident1:main
-tenant_node = building_1.tenant:main

@@ -1,6 +1,0 @@
-Invoking command in '/home/line/Community_ws/build/community_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/line/Community_ws/src/community_interfaces -DCMAKE_INSTALL_PREFIX=/home/line/Community_ws/install/community_interfaces
-Invoked command in '/home/line/Community_ws/build/community_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/line/Community_ws/src/community_interfaces -DCMAKE_INSTALL_PREFIX=/home/line/Community_ws/install/community_interfaces
-Invoking command in '/home/line/Community_ws/build/community_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/Community_ws/build/community_interfaces -- -j20 -l20
-Invoked command in '/home/line/Community_ws/build/community_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/line/Community_ws/build/community_interfaces -- -j20 -l20
-Invoking command in '/home/line/Community_ws/build/community_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/line/Community_ws/build/community_interfaces
-Invoked command in '/home/line/Community_ws/build/community_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/line/Community_ws/build/community_interfaces
