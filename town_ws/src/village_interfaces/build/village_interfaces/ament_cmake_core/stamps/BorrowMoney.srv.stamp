@@ -1,8 +1,0 @@
-#request
-string name
-uint32 money
----
-#必须要加---
-#response
-bool success
-uint32 money

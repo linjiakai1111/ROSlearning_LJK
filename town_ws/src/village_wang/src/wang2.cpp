@@ -15,7 +15,7 @@ private:
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_novel;
     //2.创建回调函数
     rclcpp::Publisher<std_msgs::msg::UInt32>::SharedPtr pub_money;
-    std::queue<std::string>novels_queue;
+    std::queue<std::string> novels_queue;
 
     //声明回调组
     rclcpp::CallbackGroup::SharedPtr sell_novels_callback_group;
@@ -67,7 +67,12 @@ public:
         pub_money = this->create_publisher<std_msgs::msg::UInt32>("sexy_girl_money",10);
         //声明并创建服务端，同时自定义了回调函数组
         sell_novels_callback_group = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
-        sell_server = this->create_service<village_interfaces::srv::SellNovel>("sell_novel",std::bind(&SingleDogNode::sell_novel_callback,this,_1,_2),rmw_qos_profile_services_default,sell_novels_callback_group);
+        sell_server = this->create_service<village_interfaces::srv::SellNovel>(
+            "sell_novel",
+            std::bind(&SingleDogNode::sell_novel_callback,this,_1,_2),
+            rmw_qos_profile_services_default,
+            sell_novels_callback_group
+        );
     }
 };
 
@@ -87,4 +92,5 @@ int main(int argc,char **argv)
     executor.spin();
 
     rclcpp::shutdown();
+    return 0;
 }

@@ -16,4 +16,8 @@ github_relate.txt
 /town_ws/camera/log/
 /Community_ws/build/
 /Community_ws/install/
-/Community_ws/log/
+/Community_ws/log//03_HelloSRV/install/
+/03_HelloSRV/install/
+/03_HelloSRV/log/
+/03_HelloSRV/build/
+
