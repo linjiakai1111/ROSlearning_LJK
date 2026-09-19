@@ -60,7 +60,7 @@ Mat curl_kernel(Mat image,int height,int width)
   Mat Convoluted_result = Mat::zeros(Size(width,height),CV_8UC1);
   cout << "image.rows=" << image.rows << " image.cols=" << image.cols << endl;
   cout << "height=" << height << " width=" << width << endl;
-  Mat Convolution_kernel = Mean;
+  Mat Convolution_kernel = Sobel_;
 
   for(int Y_ctr = 1;Y_ctr<height;Y_ctr++)
     for(int X_ctr = 1;X_ctr<width;X_ctr++){
@@ -82,4 +82,14 @@ Mat curl_kernel(Mat image,int height,int width)
   // imshow("origin",image);
   // waitKey(0);
   return Convoluted_result;
+}
+Mat extend_image(Mat src){
+  //Mat src = imread("house.jpeg",IMREAD_GRAYSCALE);
+  Mat image = Mat::zeros(src.rows+2,src.cols+2,CV_8UC1);
+  for(int i = 1;i<src.rows+1;i++){
+    for(int j = 1;j<src.cols+1;j++){
+      image.at<uchar>(i,j) = src.at<uchar>(i-1,j-1);
+    }
+  }
+  return image;
 }

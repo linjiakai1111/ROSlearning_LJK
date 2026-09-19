@@ -20,4 +20,5 @@ github_relate.txt
 /03_HelloSRV/install/
 /03_HelloSRV/log/
 /03_HelloSRV/build/
-
+/Harris/detector/build
+/Harris/detector/synth_test
