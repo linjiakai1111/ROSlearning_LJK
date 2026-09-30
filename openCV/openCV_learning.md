@@ -558,3 +558,5 @@ Mat kx = (Mat_<float>(1,3) << 1, 2, 1);
 Mat ky = (Mat_<float>(3,1) << 1, 2, 1);
 sepFilter2D(src, dst, CV_32F, kx, ky);
 ```
+## 对单应性矩阵有充分阐述的一篇博客：[Homography Matrix][Link]
+[Link]:https://cloud.tencent.com/developer/article/2127864

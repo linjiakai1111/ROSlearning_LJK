@@ -44,7 +44,7 @@ int main(int argc,char ** argv)
     }
   }
     imshow("Converted RGB src_park01",src_park01);
-    waitKey(0);
+    // waitKey(0);
     imshow("Converted RGB src_park02",src_park02);
     waitKey(0);
   return 0;

@@ -14,10 +14,10 @@ int main(int argc,char ** argv)
   Mat image = imread("park.png");
   int height = image.rows;
   int width = image.cols;
-  //normalized_image(image,height,width);
-  // resize(image,image,Size(512,512));
-  // imshow("hhhh",image);
-  // waitKey(0);
+  normalized_image(image,height,width);
+  resize(image,image,Size(512,512));
+  imshow("hhhh",image);
+  waitKey(0);
   rotate(image,height,width);
   return 0;
 }

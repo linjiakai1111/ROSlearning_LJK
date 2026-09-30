@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>corner_detect</name>
+  <name>edge_det</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="3533859932@qq.com">line</maintainer>

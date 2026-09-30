@@ -38,18 +38,18 @@ int main(int argc,char ** argv)
   merge(shifted_channels,3,result);
   imshow("convolution",result);
   waitKey(0);
-  // Laplacian(image,lap,CV_32F);
-  // imshow("Laplace",lap);
-  // waitKey(0);
-  // Sobel(image,gx,CV_32F,1,0,3);
-  // imshow("Sobel_x",gx);
-  // waitKey(0);
-  // Sobel(image,gy,CV_32F,0,1,3);
-  // imshow("Sobel_x",gy);
-  // waitKey(0);
-  // bilateralFilter(image,bilateral,9,75,75);
-  // imshow("Sobel_x",bilateral);
-  // waitKey(0);
+  Laplacian(image,lap,CV_32F);
+  imshow("Laplace",lap);
+  waitKey(0);
+  Sobel(image,gx,CV_32F,1,0,3);
+  imshow("Sobel_x",gx);
+  waitKey(0);
+  Sobel(image,gy,CV_32F,0,1,3);
+  imshow("Sobel_y",gy);
+  waitKey(0);
+  bilateralFilter(image,bilateral,9,75,75);
+  imshow("bilateral",bilateral);
+  waitKey(0);
 
   return 0;
 }

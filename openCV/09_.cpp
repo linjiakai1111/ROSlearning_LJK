@@ -28,6 +28,14 @@ int main(int argc,char ** argv)
   //draw_polyline(background);
   return 0;
 }
+
+Mat Normalize_image(Mat& image)
+{
+  Mat normalized_image;
+  normalize(image,normalized_image,0,255,NORM_MINMAX);
+  return normalized_image;
+}
+
 void draw_line_with_slope(Mat& background)
 {
   int loc_xy[4] = {0,0,0,0};
@@ -83,6 +91,7 @@ Mat get_slope_image(Mat& image,int height,int width)
 {
   Mat image_grad = Mat::zeros(Size(width-1,height-1),CV_32FC3);
   Mat normalized_grad;
+  cout << "image_size" << "\tw:" << image.cols << ":" << "\th:" << image.rows << endl;
   for(int i = 0;i < height-1;i++)
   {
     for(int j = 0;j < width-1;j++)
@@ -92,12 +101,17 @@ Mat get_slope_image(Mat& image,int height,int width)
       Vec3b pixel_y = image.at<Vec3b>(i+1,j);
       for(int k = 0;k<3;k++)
       {
-        image_grad.at<Vec3b>(i,j)[k] = saturate_cast<uchar>(pow( pow(pixel_x[k]-pixel_o[k],2) + pow(pixel_y[k]-pixel_o[k] , 2 ),0.5));
+        image_grad.at<Vec3f>(i,j)[k] = saturate_cast<float>(sqrt( pow(pixel_x[k]-pixel_o[k],2)/2.0 + pow(pixel_y[k]-pixel_o[k] , 2 )/2.0));
       }
     }
   }
   //normalize();
-  return image_grad;
+  cout << "image_grad_size" << "\tw:" << image_grad.cols << ":" << "\th:" << image_grad.rows << endl;
+
+
+  // Rect rctg(Point(700,1000),Point(186,500));
+  // rectangle(image_grad,rctg,Scalar(255,255,0),-1,LINE_8,0);
+  return Normalize_image(image_grad);
 }
 void draw_polyline(Mat& background)
 {
@@ -118,9 +132,24 @@ void draw_polyline(Mat& background)
   imshow("polylines",background);
   waitKey(0);
 }
-void Normalize_image(Mat& image)
-{
-  Mat normalized_image;
-  normalize(image,normalized_image,0,1,NORM_MINMAX);
-  
-}
+
+
+  // for(int col = 150;col<250;col++)
+  // {
+  //   int flag = 0;
+  //   float sum = 0;
+  //   for( int row = 0;row<image_grad.rows;row++)
+  //   {
+  //     for(int k = 0;k<3;k++)
+  //       sum+=image_grad.at<Vec3b>(row,col)[k];
+  //     if (sum != 0) {
+  //       sum = 0;
+  //       break;
+  //     }
+  //     else{
+  //       flag = 1;
+  //       cout << "col_ratio:" << static_cast<double>(col)/image_grad.cols<< endl;
+  //     }
+  //   }
+  //   if(flag) break;
+  // }

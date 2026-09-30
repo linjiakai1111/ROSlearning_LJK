@@ -3,10 +3,14 @@
 using namespace cv;
 
 int main(int argc,char ** argv){
-  Mat gray,hsv;
+  Mat gray,hsv,color;
   Mat src = imread("park.png");
   cvtColor(src,hsv,COLOR_BGR2HSV);
   cvtColor(src,gray,COLOR_BGR2GRAY);
+  cvtColor(gray,color,COLOR_GRAY2BGR);
+  std::cout << color.channels() << std::endl;
+  imshow("gray2bgr",color);
+  waitKey(0);
   imshow("HSV",hsv);
   waitKey(0);
   imwrite("/home/line/ROSlearning_LJK/openCV/park_hsv.png",hsv);
