@@ -23,4 +23,7 @@ github_relate.txt
 *.build/
 *.log*.install/
 *.vscode/
-/K
+/Kalman滤波/build
+04_HelloCV/build
+04_HelloCV/install
+04_HelloCV/log

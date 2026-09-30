@@ -8,6 +8,10 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(OpenCV REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(cv_bridge REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -20,5 +24,19 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+add_executable(edge_node src/img_hub.cpp src/convex_judge.cpp)
 
+target_include_directories(edge_node PRIVATE include)
+
+ament_target_dependencies(
+  edge_node
+  rclcpp
+  sensor_msgs
+  std_msgs
+  OpenCV
+  cv_bridge
+)
+install(TARGETS
+  edge_node
+  DESTINATION lib/${PROJECT_NAME})
 ament_package()
