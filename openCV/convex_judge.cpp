@@ -8,11 +8,14 @@
 using namespace std;
 using namespace cv;
 
+// HARRIS,HOUGH,CONTOUR只能开一个
 #define USING_HARRIS false
-#define USING_CONVEX false
+#define USING_HOUGH false
+#define USING_CONTOUR true
+#define USING_CONVEX true
 
 int GRN(int,int);
-Mat Find_ConvexHull(Mat&,int,int,const std::vector<Point2f>&);
+Mat Find_ConvexHull(Mat&,int,int,const std::vector<Point>&);
 VideoCapture get_videoINFO(std::string,double&,int&,int&,int&);
 // int video_cap(VideoCapture&,Mat&);
 
@@ -22,7 +25,7 @@ int main(){
   int height = 0;
   int width = 0;
   double fps;
-  std::string video_path = "./cube01.mp4";
+  std::string video_path = "./real01.mp4";
   Mat ori_img_src,img_src;
   Mat edge_img;
   VideoCapture cap = get_videoINFO(video_path,fps,height,width,frame_total);
@@ -30,7 +33,7 @@ int main(){
   Mat convex_back(Size(width,height),0,CV_8UC1);
   Mat corner_img = convex_back.clone();
   // Mat background(Size(width,height),0,CV_8UC1);
-  std::vector<Vec4i> Hough_line;
+
   int rate = 1000/fps;
 
 
@@ -79,7 +82,8 @@ int main(){
       circle(corner_img,pt,1,255,-1);
     }
     }
-    else{
+    if(USING_HOUGH){
+      std::vector<Vec4i> Hough_line;
       HoughLinesP(edge_img,Hough_line,1,CV_PI/180,40,20,30);
       for(auto& l:Hough_line){
         Point pt1,pt2;
@@ -102,15 +106,31 @@ int main(){
         );
       }
     }
-    cout << "角点数：" << con_pts.size() << endl;
-    if(con_pts.size()==0) continue;
-    if(USING_CONVEX){
-      convex_back = Find_ConvexHull(convex_back,height,width,con_pts);
-      imshow("ConvexHull",convex_back);
+    if(USING_CONTOUR){
+      std::vector<std::vector<Point>> contour_vec,valid_pts;
+      std::vector<Vec4i> hierachy;
+      findContours(edge_img,contour_vec,hierachy,cv::RETR_EXTERNAL,cv::CHAIN_APPROX_SIMPLE);
+      int c_area;
+      for(const auto& c:contour_vec){
+        c_area = contourArea(c);
+        if( c_area > 50){
+          valid_pts.emplace_back(c);
+          for(const auto p:c){
+            circle(corner_img,p,1,255,-1);
+            con_pts.emplace_back(p);
+          }
+          if(USING_CONVEX){
+            convex_back = Find_ConvexHull(convex_back,height,width,c);
+          }
+        }
+      }
     }
+    cout << (USING_CONTOUR ? "轮廓点数:":"角点数:") << con_pts.size() << endl;
+    if(con_pts.size()==0) continue;
     cout << "第" << frame_count+1 << "帧" << endl;
     imshow("edge",edge_img);
     imshow("corner",corner_img);
+    if(USING_CONVEX) imshow("ConvexHull",convex_back);
     waitKey(rate);
     frame_count++;
     auto end = std::chrono::steady_clock::now();
@@ -131,8 +151,8 @@ int GRN(int min,int max){
 double line_pt_dist(double k,double b,Point pt){
   return abs(k*pt.x-pt.y+b)/sqrt(pow(k,2)+1);
 }
-Mat Find_ConvexHull(Mat& convex_back,int height,int width,const std::vector<Point2f>& con_pts){
-  std::vector<Point2f> out_pts;
+Mat Find_ConvexHull(Mat& convex_back,int height,int width,const std::vector<Point>& con_pts){
+  std::vector<Point> out_pts;
   convexHull(con_pts,out_pts);
   int count = 0;
   for(auto &pt:out_pts){
@@ -141,8 +161,8 @@ Mat Find_ConvexHull(Mat& convex_back,int height,int width,const std::vector<Poin
   }
   std::cout << "凸包点数：" << count << endl;
   for(int i=0;i<out_pts.size();i++){
-    Point2f start = out_pts.at(i);
-    Point2f termination = (i==out_pts.size()-1) ? out_pts.front() : out_pts.at(i+1);
+    Point start = out_pts.at(i);
+    Point termination = (i==out_pts.size()-1) ? out_pts.front() : out_pts.at(i+1);
     line(
       convex_back,
       start,
